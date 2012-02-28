@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: PlayerbotUI
+## Author: Gitch
+## Version: 0000001
+## Notes: Alpha Version. Menu interface for the many many features of Playerbot for MaNgOs.
+## URL: http://playerbot.osh.nu/
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: PlayerbotUISavedVar
+PlayerbotUI.lua
+PlayerbotUIForm.xml
