@@ -25,6 +25,48 @@
       </EdgeSize>
     </Backdrop>
     <Frames>
+      <Button name="$parentButton4" text="Now">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="57" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="134" y="-64" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("target")
+
+local message = "autoequip now"
+
+SendChatMessage(message, "PARTY", nil, UnitName("target"))
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
       <Button name="$parentButton3" text="O">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
         <Size>
@@ -33,7 +75,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="353" y="-291" />
+              <AbsDimension x="19" y="-291" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -75,7 +117,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="353" y="-252" />
+              <AbsDimension x="19" y="-248" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -118,7 +160,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="353" y="-214" />
+              <AbsDimension x="19" y="-211" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -160,7 +202,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="38" y="-193" />
+              <AbsDimension x="38" y="-180" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -189,7 +231,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="274" y="-68" />
+              <AbsDimension x="53" y="-68" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -222,7 +264,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="249" y="-92" />
+              <AbsDimension x="53" y="-95" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -255,7 +297,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="221" y="-133" />
+              <AbsDimension x="43" y="-133" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -284,7 +326,7 @@ SendChatMessage(message, "WHISPER", nil, UnitName("target"))
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="355" y="-134" />
+              <AbsDimension x="15" y="-134" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -310,7 +352,7 @@ ChatEdit_SendText(pboteditbox1)
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="355" y="-95" />
+              <AbsDimension x="15" y="-95" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -336,7 +378,7 @@ ChatEdit_SendText(pboteditbox1)
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="355" y="-64" />
+              <AbsDimension x="15" y="-64" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -395,7 +437,7 @@ ChatEdit_SendText(pboteditbox1)
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="274" y="-215" />
+              <AbsDimension x="53" y="-215" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -423,12 +465,12 @@ ChatEdit_SendText(pboteditbox1)
       <Frame name="$parentComponent2">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="100" y="35" />
+          <AbsDimension x="100" y="31" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="249" y="-239" />
+              <AbsDimension x="53" y="-248" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -461,7 +503,7 @@ ChatEdit_SendText(pboteditbox1)
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="221" y="-280" />
+              <AbsDimension x="45" y="-285" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -544,9 +586,52 @@ ChatEdit_OnLoad(self);
           </Shadow>
         </FontString>
       </EditBox>
+      <Button name="$parentComponent10" text="Now">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="57" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="134" y="-211" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("target")
+
+local message = "autoequip now"
+
+SendChatMessage(message, "WHISPER", nil, UnitName("target"))
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
     </Frames>
     <Scripts>
-      <OnLoad>PlayerbotUIForm1:Hide();</OnLoad>
+      <OnLoad>PlayerbotUIForm1:Hide();
+</OnLoad>
       <OnEvent>PlayerbotUIForm1Event();
 </OnEvent>
     </Scripts>

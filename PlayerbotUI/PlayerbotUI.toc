@@ -14,3 +14,5 @@ PlayerbotUIForm2.xml
 PlayerbotUIForm3.xml
 PlayerbotUIForm4.xml
 PlayerbotUIForm5.xml
+PlayerbotUIForm6.xml
+PlayerbotUIForm7.xml

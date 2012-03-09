@@ -63,6 +63,46 @@
       </Layer>
     </Layers>
     <Frames>
+      <Button name="$parentButton1" text="Combat">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="66" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="141" y="-361" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>PlayerbotUIForm7:Show();
+PlayerbotUIForm1:Hide();
+PlayerbotUIForm2:Hide();
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
       <Frame name="nogrouptext" hidden="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -96,40 +136,6 @@
           </Layer>
         </Layers>
       </Frame>
-      <Button name="craftbutton" text="Craft">
-        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
-        <Size>
-          <AbsDimension x="65" y="22" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="144" y="-338" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </NormalTexture>
-        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </PushedTexture>
-        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </DisabledTexture>
-        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </HighlightTexture>
-        <ButtonText name="$parentText">
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
-        </ButtonText>
-        <NormalFont style="GameFontNormal" />
-        <HighlightFont style="GameFontHighlight" />
-        <DisabledFont style="GameFontDisable" />
-        <PushedTextOffset x="0" y="0" />
-      </Button>
       <Button name="ordersbutton" text="Orders">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -138,13 +144,14 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="76" y="-338" />
+              <AbsDimension x="73" y="-361" />
             </Offset>
           </Anchor>
         </Anchors>
         <Scripts>
           <OnClick>PlayerbotUIForm2:Show();
 PlayerbotUIForm1:Hide();
+PlayerbotUIForm7:Hide();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -184,6 +191,7 @@ PlayerbotUIForm1:Hide();
           <OnClick>PlayerbotUIForm1:Hide();
 PlayerbotUIForm2:Hide();
 PlayerbotUIForm3:Hide();
+PlayerbotUIForm7:Hide();
 PlayerbotUIForm:Hide();
 </OnClick>
         </Scripts>
@@ -216,13 +224,14 @@ PlayerbotUIForm:Hide();
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="18" y="-338" />
+              <AbsDimension x="15" y="-361" />
             </Offset>
           </Anchor>
         </Anchors>
         <Scripts>
           <OnClick>PlayerbotUIForm1:Show();
 PlayerbotUIForm2:Hide();
+PlayerbotUIForm7:Hide();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
