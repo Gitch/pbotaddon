@@ -33,7 +33,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="166" y="-41" />
+              <AbsDimension x="45" y="-64" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -76,13 +76,14 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="267" y="-252" />
+              <AbsDimension x="257" y="-64" />
             </Offset>
           </Anchor>
         </Anchors>
         <Scripts>
           <OnClick>pboteditbox1:SetText("/p resumeorders")
-ChatEdit_SendText(pboteditbox1)</OnClick>
+ChatEdit_SendText(pboteditbox1)
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -114,7 +115,7 @@ ChatEdit_SendText(pboteditbox1)</OnClick>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="60" y="-43" />
+              <AbsDimension x="45" y="-43" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -143,7 +144,7 @@ ChatEdit_SendText(pboteditbox1)</OnClick>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="45" y="-20" />
+              <AbsDimension x="17" y="-20" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -172,7 +173,7 @@ ChatEdit_SendText(pboteditbox1)</OnClick>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="45" y="-252" />
+              <AbsDimension x="45" y="-183" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -207,35 +208,6 @@ end
         <DisabledFont style="GameFontDisable" />
         <PushedTextOffset x="0" y="0" />
       </Button>
-      <Frame name="a">
-        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
-        <Size>
-          <AbsDimension x="251" y="27" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="74" y="-74" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" setAllPoints="true" font="Fonts\FRIZQT__.TTF" text="Primary Combat Orders">
-              <FontHeight>
-                <AbsValue val="16" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="$parentButton2" text="Assist">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
         <Size>
@@ -244,7 +216,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="45" y="-135" />
+              <AbsDimension x="151" y="-111" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -289,7 +261,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="45" y="-163" />
+              <AbsDimension x="257" y="-111" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -334,7 +306,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="45" y="-107" />
+              <AbsDimension x="45" y="-111" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -377,7 +349,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="45" y="-224" />
+              <AbsDimension x="45" y="-155" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -414,35 +386,6 @@ end
         <DisabledFont style="GameFontDisable" />
         <PushedTextOffset x="0" y="0" />
       </Button>
-      <Frame name="$parentComponent1">
-        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
-        <Size>
-          <AbsDimension x="251" y="27" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="74" y="-191" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" setAllPoints="true" font="Fonts\FRIZQT__.TTF" text="Secondary Combat Orders">
-              <FontHeight>
-                <AbsValue val="16" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="$parentComponent2" text="Bot Resume">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
         <Size>
@@ -451,7 +394,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="156" y="-252" />
+              <AbsDimension x="146" y="-64" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -461,7 +404,8 @@ if UnitExists(name) then
 SendChatMessage("resumeorders", "WHISPER", nil, name)
 else
 PlayerbotUIForm4:Show();
-end</OnClick>
+end
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -485,6 +429,875 @@ end</OnClick>
         <DisabledFont style="GameFontDisable" />
         <PushedTextOffset x="0" y="0" />
       </Button>
+      <Button name="$parentComponent3" text="Resist Frost">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="100" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="151" y="-155" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("target")
+if UnitExists(name) then
+SendChatMessage(".bot co "..name.." resistfrost", "SAY", nil, name)
+else
+PlayerbotUIForm4:Show();
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Button name="$parentComponent4" text="Resist Nature">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="100" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="151" y="-183" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("target")
+if UnitExists(name) then
+SendChatMessage(".bot co "..name.." resistnature", "SAY", nil, name)
+else
+PlayerbotUIForm4:Show();
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Button name="$parentComponent5" text="Resist Fire">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="100" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="257" y="-155" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("target")
+if UnitExists(name) then
+SendChatMessage(".bot co "..name.." resistfire", "SAY", nil, name)
+else
+PlayerbotUIForm4:Show();
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Button name="$parentComponent6" text="Resist Shadow">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="100" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="257" y="-183" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("target")
+if UnitExists(name) then
+SendChatMessage(".bot co "..name.." resistshadow", "SAY", nil, name)
+else
+PlayerbotUIForm4:Show();
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Button name="$parentComponent7" text="Set">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="50" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="277" y="-224" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("party1")
+local gvalue = combatslidervalue1:GetText()
+if UnitExists(name) then
+SendChatMessage("combat delay "..gvalue.."", "WHISPER", nil, name)
+
+end
+
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Frame name="$parentComponent8">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="128" y="17" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="45" y="-205" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" setAllPoints="true" font="Fonts\FRIZQT__.TTF" text="Group Bot">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <Frame name="$parentComponent9">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="128" y="17" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="173" y="-205" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" setAllPoints="true" font="Fonts\FRIZQT__.TTF" text="Init Combat Delay">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <EditBox name="combatslidervalue1" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="44" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="216" y="-228" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <EditBox name="combatbot1" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="45" y="-228" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <Slider name="combatslider1" minValue="0" maxValue="10" defaultValue="0" valueStep="1" orientation="HORIZONTAL">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4976-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="11" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="45" y="-245" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+          <BackgroundInsets>
+            <AbsInset left="3" right="3" top="6" bottom="6" />
+          </BackgroundInsets>
+          <TileSize>
+            <AbsValue val="8" />
+          </TileSize>
+          <EdgeSize>
+            <AbsValue val="8" />
+          </EdgeSize>
+        </Backdrop>
+        <HitRectInsets>
+          <AbsInset left="0" right="0" top="-10" bottom="-10" />
+        </HitRectInsets>
+        <Scripts>
+          <OnValueChanged>
+local name1, realm = UnitName("party1")
+
+if UnitExists(name1) then
+combatslidervalue1:SetText(combatslider1:GetValue())
+
+else
+combatslidervalue1:SetText("")
+end
+</OnValueChanged>
+        </Scripts>
+        <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Horizontal">
+          <Size>
+            <AbsDimension x="32" y="32" />
+          </Size>
+        </ThumbTexture>
+      </Slider>
+      <EditBox name="combatbot2" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="45" y="-262" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <Slider name="combatslider2" minValue="0" maxValue="10" defaultValue="0" valueStep="1" orientation="HORIZONTAL">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4976-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="11" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="45" y="-282" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+          <BackgroundInsets>
+            <AbsInset left="3" right="3" top="6" bottom="6" />
+          </BackgroundInsets>
+          <TileSize>
+            <AbsValue val="8" />
+          </TileSize>
+          <EdgeSize>
+            <AbsValue val="8" />
+          </EdgeSize>
+        </Backdrop>
+        <HitRectInsets>
+          <AbsInset left="0" right="0" top="-10" bottom="-10" />
+        </HitRectInsets>
+        <Scripts>
+          <OnValueChanged>
+local name2, realm = UnitName("party2")
+
+if UnitExists(name2) then
+combatslidervalue2:SetText(combatslider2:GetValue())
+
+else
+combatslidervalue2:SetText("")
+end
+</OnValueChanged>
+        </Scripts>
+        <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Horizontal">
+          <Size>
+            <AbsDimension x="32" y="32" />
+          </Size>
+        </ThumbTexture>
+      </Slider>
+      <EditBox name="combatbot3" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="45" y="-299" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <Slider name="combatslider3" minValue="0" maxValue="10" defaultValue="0" valueStep="1" orientation="HORIZONTAL">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4976-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="11" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="47" y="-316" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+          <BackgroundInsets>
+            <AbsInset left="3" right="3" top="6" bottom="6" />
+          </BackgroundInsets>
+          <TileSize>
+            <AbsValue val="8" />
+          </TileSize>
+          <EdgeSize>
+            <AbsValue val="8" />
+          </EdgeSize>
+        </Backdrop>
+        <HitRectInsets>
+          <AbsInset left="0" right="0" top="-10" bottom="-10" />
+        </HitRectInsets>
+        <Scripts>
+          <OnValueChanged>
+local name3, realm = UnitName("party3")
+
+if UnitExists(name3) then
+combatslidervalue3:SetText(combatslider3:GetValue())
+
+else
+combatslidervalue3:SetText("")
+end
+</OnValueChanged>
+        </Scripts>
+        <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Horizontal">
+          <Size>
+            <AbsDimension x="32" y="32" />
+          </Size>
+        </ThumbTexture>
+      </Slider>
+      <EditBox name="combatbot4" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="47" y="-333" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <Slider name="combatslider4" minValue="0" maxValue="10" defaultValue="0" valueStep="1" orientation="HORIZONTAL">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4976-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="130" y="11" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="47" y="-350" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+          <BackgroundInsets>
+            <AbsInset left="3" right="3" top="6" bottom="6" />
+          </BackgroundInsets>
+          <TileSize>
+            <AbsValue val="8" />
+          </TileSize>
+          <EdgeSize>
+            <AbsValue val="8" />
+          </EdgeSize>
+        </Backdrop>
+        <HitRectInsets>
+          <AbsInset left="0" right="0" top="-10" bottom="-10" />
+        </HitRectInsets>
+        <Scripts>
+          <OnValueChanged>
+local name4, realm = UnitName("party4")
+
+if UnitExists(name4) then
+combatslidervalue4:SetText(combatslider4:GetValue())
+
+else
+combatslidervalue4:SetText("")
+end
+</OnValueChanged>
+        </Scripts>
+        <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Horizontal">
+          <Size>
+            <AbsDimension x="32" y="32" />
+          </Size>
+        </ThumbTexture>
+      </Slider>
+      <EditBox name="combatslidervalue2" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="44" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="216" y="-262" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <EditBox name="combatslidervalue3" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="44" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="216" y="-299" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <EditBox name="combatslidervalue4" autoFocus="false">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4975-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="44" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="216" y="-333" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="0.4901961" g="1" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+        <HighlightColor r="1" g="1" b="1" />
+        <TextInsets>
+          <AbsInset left="0" right="0" top="0" bottom="0" />
+        </TextInsets>
+      </EditBox>
+      <Button name="$parentComponent22" text="Set">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="50" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="277" y="-258" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("party2")
+local gvalue = combatslidervalue2:GetText()
+if UnitExists(name) then
+SendChatMessage("combat delay "..gvalue.."", "WHISPER", nil, name)
+
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Button name="$parentComponent23" text="Set">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="50" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="277" y="-295" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("party3")
+local gvalue = combatslidervalue3:GetText()
+if UnitExists(name) then
+SendChatMessage("combat delay "..gvalue.."", "WHISPER", nil, name)
+
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Button name="$parentComponent24" text="Set">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="50" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="277" y="-329" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>local name, realm = UnitName("party4")
+local gvalue = combatslidervalue4:GetText()
+if UnitExists(name) then
+SendChatMessage("combat delay "..gvalue.."", "WHISPER", nil, name)
+
+end
+</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+        <PushedTextOffset x="0" y="0" />
+      </Button>
+      <Frame name="a">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="251" y="27" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="74" y="-92" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" setAllPoints="true" font="Fonts\FRIZQT__.TTF" text="Primary Combat Orders">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <Frame name="$parentComponent1">
+        <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
+        <Size>
+          <AbsDimension x="251" y="27" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="74" y="-131" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" setAllPoints="true" font="Fonts\FRIZQT__.TTF" text="Secondary Combat Orders">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
     </Frames>
     <Scripts>
       <OnLoad>PlayerbotUIForm2:Hide();
@@ -496,6 +1309,32 @@ if UnitExists(name) then
 pboteditbox8:SetText(name)
 else
 pboteditbox8:SetText("")
+end
+
+local name1, realm = UnitName("party1")
+local name2, realm = UnitName("party2")
+local name3, realm = UnitName("party3")
+local name4, realm = UnitName("party4")
+
+if UnitExists(name1) then
+combatbot1:SetText(name1)
+else
+combatbot1:SetText("")
+end
+if UnitExists(name2) then
+combatbot2:SetText(name2)
+else
+combatbot2:SetText("")
+end
+if UnitExists(name3) then
+combatbot3:SetText(name3)
+else
+combatbot3:SetText("")
+end
+if UnitExists(name4) then
+combatbot4:SetText(name4)
+else
+combatbot4:SetText("")
 end
 </OnUpdate>
       <OnShow>local name, realm = UnitName("target")
